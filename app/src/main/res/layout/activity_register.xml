@@ -11,12 +11,13 @@
         android:layout_width="30dp"
         android:layout_height="25dp"
         android:background="@drawable/arrow_left_black"
-        android:layout_marginRight="300dp"
-        android:layout_marginBottom="600dp"
+        android:layout_marginRight="330dp"
+        android:layout_marginBottom="700dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="handleBackRegister"/>
 
     <TextView
         android:id="@+id/Generalinfo"
@@ -26,7 +27,7 @@
         android:text="General Info"
         android:textColor="#000"
         android:textSize="30dp"
-        android:layout_marginRight="180dp"
+        android:layout_marginRight="200dp"
         android:layout_marginBottom="470dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,7 +99,7 @@
         android:layout_height="2dp"
         android:background="@drawable/red_line_padded"
         android:layout_marginBottom="210dp"
-        android:layout_marginLeft="15dp"
+        android:layout_marginLeft="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -112,7 +113,7 @@
         android:text="Jonathan Doe"
         android:textSize="24dp"
         android:layout_marginBottom="250dp"
-        android:layout_marginRight="195dp"
+        android:layout_marginRight="190dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -211,7 +212,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
-        android:id="@+id/confirmpassword"
+        android:id="@+id/reconfirmpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -233,12 +234,14 @@
         android:fontFamily="@font/futura_pt_demibold"
         android:text="Next"
         android:textColor="#fff"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="600dp"
         android:background="@drawable/btn_red_large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="handlePersonal"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
