@@ -8,12 +8,11 @@
 
     <ImageView
         android:id="@+id/red_rectangle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="325dp"
         android:background="@drawable/red_rectangle"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -43,18 +42,17 @@
         android:text="Welcome back"
         android:textSize="42dp"
         android:textColor="#000000"
-        android:layout_marginRight="75dp"
+        android:layout_marginRight="65dp"
         android:layout_marginBottom="270dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/red_rectangle" />
 
     <TextView
         android:id="@+id/txt_welcome2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginRight="80dp"
+        android:layout_marginRight="22dp"
         android:layout_marginBottom="195dp"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="at largest Service marketplace"
@@ -75,7 +73,7 @@
         android:text="Enter as a"
         android:textColor="#B68D8D"
         android:textSize="20dp"
-        android:layout_marginRight="245dp"
+        android:layout_marginRight="235dp"
         android:layout_marginBottom="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
